@@ -1,32 +1,212 @@
-.App {
-  text-align: center;
+
+
+/* Navbar */
+.header{
+    color: #747474;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.headerLinks{
+    text-decoration: none ;
+    color: #747474;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+/* Introduction */
+
+.introTitle{
+    color: #00b39b;
+}
+.introText{
+    color: #747474;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Services */
+
+
+.services{
+    color: white;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+.patients{
+    background-color: #00ccb1;
+    padding: 3% 3%;
+    border-radius: 3%;
+}
+.patientsTitle{
+    color: hsla(0,0%,100%,.7);
+}
+.patientsPhoto{
+    height: 58%;
+    width: 75%;
+    margin-left: 37%;
+}
+.doctors{
+    background-color: #3d83df;
+    padding: 3% 3%;
+    border-radius: 3%;
+}
+.doctorsTitle{
+    color: hsla(0,0%,100%,.7);
+}
+.doctorsPhoto{
+    height: 58%;
+    width: 75%;
+    margin-top: 10%;
+    margin-left: 37%;
+}
+.country{
+    padding: 10px;
+    border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/* Platform */
+
+.platform{
+    background-color: #e5faf8;
+    background-repeat: no-repeat;
+    background-size: 20%;
+    background-position: bottom;
+    background-position-x: left;
+    background-image: url(https://www.docplanner.com/img/sygnet.png);
+    padding: 10% 3%;
+    display: flex;
+    height: 600px;
+    border-radius: 3%;
+    color: #747474;
+}
+.platform-1{
+    margin-right: 15%;
+}
+.platform-2{
+    text-align: center;
+}
+.platform-2-1{
+    display: flex;
+    justify-content: space-between
+}
+.platform-2-2{
+    display: flex;
+    justify-content: space-between
+}
+.platform-2-1-1{
+    background-color: white;
+    border-radius: 5%;
+    height: 180px;
+    width: 70%;
+    text-align: center;
+    margin-left: -40%;
+    margin-top: 25px;
+}
+.platform-2-1-2{
+    background-color: white;
+    border-radius: 5%;
+    height: 180px;
+    width: 70%;
+    margin-left: 10%;
+}
+.platform-2-2-1{
+    background-color: white;
+    border-radius: 5%;
+    height: 180px;
+    width: 86%;
+    margin-top: 58px;
+    margin-left: -45%;
+}
+.platform-2-2-2{
+    background-color: white;
+    border-radius: 5%;
+    height: 180px;
+    width: 85%;
+    margin-top: 45px;
+    margin-left: 20%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Culture */
+
+.culture{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.cultureText{
+    margin-top: -20px;
+    color: #00b39b;
+    font-size: 25px;
+}
+.cultreLists{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 37%;
+}
+.cultreList{
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+
+}
+
+/* Change */
+
+.change{
+    text-align: center;
+    font-family: sans-serif;
+    color: #747474;
+
+
+}
+.change-title{
+    color: #00b39b;
+}
+
+/* Citys */
+
+.itemCityApp{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4%;
+}
+.cityImage{
+    border-radius: 3%;
+}
+.cityTB{
+    display: flex;
+    justify-content: space-around;
+}
+.cityTitle{
+    font-family: sans-serif;
+    color: #747474;
+    display: flex;
+    align-items: center;
+}
+.cityButton{
+    background-color: #3d83df;
+    border: none;
+    color: white;
+    padding: 4% 2%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 80%;
+    margin: 5% 2%;
+    cursor: pointer;
+    border-radius: 5%;
+    width: 32%;
+}
+
+/* Footer */
+
+.footer-1{
+    text-align: center;
+    font-size: 70%;
+    margin-top: 10%;
+}
+.footer-link{
+    color: #3d83df;
+}
+.footer-2{
+    text-align: center;
+    font-size: 70%;
+}
+.footer-sit{
+    text-align: center;
+    font-size: 70%;
 }
